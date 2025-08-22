@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dh3pu8ioiyol1"]
+
+[ext_resource type="Script" uid="uid://cqlpvg3chsnub" path="res://scenes/killlzone.gd" id="1_vgwn5"]
+
+[node name="killlzone" type="Area2D"]
+script = ExtResource("1_vgwn5")
+
+[connection signal="body_shape_entered" from="." to="." method="_on_body_shape_entered"]
